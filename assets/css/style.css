@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #654321;
+    font-family: Libre Bodoni, serif;
 }
 /* Header Style*/
 header {
