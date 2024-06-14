@@ -14,11 +14,15 @@ body{
     display: flex;
     flex-direction: column;
     color: #654321;
-    font-family: Libre Bodoni, serif;
+    font-family: "Libre Bodoni", serif;
 }
 /* Header Style*/
 header {
     background-color: forestgreen;
+}
+
+h1{
+    font-family: "Libre Bodoni", serif;
 }
 /*Main content Style*/
 main{
