@@ -47,6 +47,10 @@ h1{
 #menu > li{
     margin-bottom: 1em;
 }
+
+.active{
+    border-bottom: #800020 1px solid;
+}
 /*Main content Style*/
 main{
     background-color: white;
