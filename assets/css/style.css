@@ -13,12 +13,12 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #654321;
+    color: #800020;
     font-family: "Libre Bodoni", serif;
 }
 /* Header Style*/
 header{
-    background-color: beige;
+    background-color: #FFFDD0;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -33,10 +33,20 @@ header a{
 
 h1{
     font-family: "Libre Bodoni", serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
+    color: #800020;
 }
 
+#menu{
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li{
+    margin-bottom: 1em;
+}
 /*Main content Style*/
 main{
     background-color: white;
