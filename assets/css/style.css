@@ -24,6 +24,9 @@ header{
     z-index: 99;
     width: 100;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a{
@@ -42,6 +45,7 @@ h1{
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+    padding: 0 1rem;
 }
 
 #menu > li{
@@ -51,10 +55,35 @@ h1{
 .active{
     border-bottom: #800020 1px solid;
 }
+
+/* Navbar styles with dropdown toggle */
+nav{
+    position: absolute;
+    background-color: inherit;
+    width: 100;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked ~ nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 1rem;
+}
 /*Main content Style*/
 main{
     background-color: white;
     flex: 1 0 auto;
+    margin-top: 22%;
 
 }
 
